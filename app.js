@@ -122,7 +122,7 @@ function mainMenu() {
         selection = readlineSync.question("which quote would you like to remove?")
         UpdatedCharacter = removeQuote(character, selection);
         API.update("characters", UpdatedCharacter);
-        API.read("characters", )
+
         mainMenu();
 
     } else {
